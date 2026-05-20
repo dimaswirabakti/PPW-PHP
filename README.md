@@ -33,4 +33,4 @@ Login Adminer:
 
 ## Struktur Branch Git
 - `main`                  → kode final tiap pertemuan
-- `pertemuan-XX`    → pengerjaan per pertemuan
+- `pertemuan-XX-topik`    → pengerjaan per pertemuan
