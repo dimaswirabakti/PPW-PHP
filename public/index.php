@@ -13,7 +13,13 @@ if (file_exists($envFile)) {
 require_once __DIR__ . '/../config/database.php';
 
 $page     = $_GET['page'] ?? 'home';
-$allowed  = ['home', 'users'];
+$allowed = [
+    'home',
+    'pertemuan-11/profil',
+    'pertemuan-11/imt',
+    'pertemuan-11/tanggal',
+    'pertemuan-11/kalkulator',
+];
 
 if (!in_array($page, $allowed)) {
     http_response_code(404);

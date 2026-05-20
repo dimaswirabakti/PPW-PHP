@@ -19,8 +19,11 @@ try {
     <h1>Praktikum Pemrograman Web</h1>
     <p><?= $status ?></p>
     <ul>
-        <li><a href="/?page=users">Halaman Users</a></li>
         <li><a href="http://localhost:8081" target="_blank">Adminer (DB GUI)</a></li>
+        <li><a href="/?page=pertemuan-11/profil">Pertemuan 11: Profil Mahasiswa</a></li>
+        <li><a href="/?page=pertemuan-11/imt">Pertemuan 11: Kalkulator IMT</a></li>
+        <li><a href="/?page=pertemuan-11/tanggal">Pertemuan 11: Info Bulan</a></li>
+        <li><a href="/?page=pertemuan-11/kalkulator">Pertemuan 11: Kalkulator</a></li>
     </ul>
 </body>
 
