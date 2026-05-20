@@ -12,4 +12,4 @@
 *.log
 /logs/
 
-docs/WORKFLOW.md
+docs/workflow/
