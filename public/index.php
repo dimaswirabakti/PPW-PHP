@@ -19,6 +19,11 @@ $allowed = [
     'pertemuan-11/imt',
     'pertemuan-11/tanggal',
     'pertemuan-11/kalkulator',
+    'pertemuan-12/crud/index',
+    'pertemuan-12/crud/create',
+    'pertemuan-12/crud/edit',
+    'pertemuan-12/konversi-nilai',
+    'pertemuan-12/pendataan',
 ];
 
 if (!in_array($page, $allowed)) {
